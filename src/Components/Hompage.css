@@ -1,0 +1,61 @@
+.body {
+  border: 1px solid black;
+  width: 80vw;
+  height: max-content;
+  padding: 15px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: rgba(181, 178, 178, 0.486);
+}
+input {
+  width: 450px;
+  /* width: 250px; */
+  border-radius: 4px;
+  margin: 5px;
+  height: 55px;
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(149, 139, 139);
+  /* width: 50vw; */
+}
+input:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+#btn-1 {
+  margin-top: 5px;
+  width: max-content;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 05px 10px;
+}
+#btn-1:hover {
+  background-color: rgb(29, 31, 30);
+}
+
+table {
+  border: 2px solid rgb(149, 151, 154);
+  width: 50vw;
+  /* border-radius: 10px; */
+}
+thead td {
+  padding: 5px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+tbody td {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+button {
+  border-radius: 5px;
+  border-color: black;
+  background-color: black;
+  color: white;
+}
